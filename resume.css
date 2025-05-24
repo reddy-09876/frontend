@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.resume {
+  display: flex;
+  max-width: 960px;
+  margin: 2rem auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+  background: #2c3e50;
+  color: white;
+  padding: 2rem;
+  width: 30%;
+}
+
+.sidebar h2 {
+  margin-top: 0.5rem;
+}
+
+.sidebar .title {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #bdc3c7;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 0.5rem 0;
+}
+
+.profile-pic {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.skills li {
+  background: #34495e;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.main {
+  padding: 2rem;
+  width: 70%;
+}
+
+.main h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.item {
+  margin-bottom: 1.5rem;
+}
+
+.item h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.item span {
+  font-size: 0.85rem;
+  color: #999;
+}
