@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Resume</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="resume">
+    <aside class="sidebar">
+      <img src="profile.jpg" alt="Profile Photo" class="profile-pic"/>
+      <h2>Your Name</h2>
+      <p class="title">Web Developer</p>
+      <section>
+        <h3>Contact</h3>
+        <ul>
+          <li>Email: your@email.com</li>
+          <li>Phone: +123 456 789</li>
+          <li>Location: City, Country</li>
+          <li>LinkedIn: /yourprofile</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Skills</h3>
+        <ul class="skills">
+          <li>HTML & CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </section>
+    </aside>
+
+    <main class="main">
+      <section>
+        <h2>Profile</h2>
+        <p>
+        Looking for a challenging growth oriented position where my technical skills can be effectively utilize and improved eventually leading to contribution in the growth of the organization while being resourceful,innovative and flexible.
+        </p>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+        <div class="item">
+          <h3>Frontend Developer – XYZ Corp</h3>
+        </div>
+        <div class="item">
+          <h3>Web Intern – ABC Inc.</h3>
+          <span>2021 – 2022</span>
+          <p>Assisted in redesigning the company website. Gained hands-on experience in responsive design and SEO.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="item">
+          <h3>B.Sc. in Computer Science</h3>
+          <span>2018 – 2021</span>
+          <p>University Name, City</p>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
